@@ -1,5 +1,5 @@
 FROM nginx:1.23.3
-COPY . /usr/share/nginx/html
+COPY dist/angular-example-app /usr/share/nginx/html
 
 
 COPY nginx.conf /etc/nginx/nginx.conf
